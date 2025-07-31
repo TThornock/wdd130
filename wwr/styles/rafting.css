@@ -88,7 +88,7 @@ header img{
 }
 
 body {
-    font-family: var(--body-font, "Kantumruy Pro", sans-serif);
+    font-family: var(--body-font);
     color: var(--primary-color);
 }
 
@@ -99,7 +99,7 @@ header, main, footer {
 }
 
 h1, h2 {
-    font-family: var(--heading-font, "Merriweather Sans", sans-serif);
+    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
@@ -147,7 +147,7 @@ h1 {
 }
 
 .hero article {
-    font-family: var(--body-font, "Kantumruy Pro", sans-serif);
+    font-family: var(--body-font);
     position: absolute;
     align-self: center;
     width: 96%;
