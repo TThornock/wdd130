@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #1d3557; 
+    --primary-color: #1d3557;
     --secondary-color: #457b9d;
     --accent1-color: #a8dadc;
     --accent2-color: #F1FAEE;
@@ -16,7 +16,7 @@ header {
     color: var(--accent2-color);
 }
 
-header img{
+header img {
     grid-column: 2;
 }
 
@@ -27,11 +27,12 @@ header img{
     padding: 0;
     list-style: none;
 }
-.navi a:link{
+
+.navi a:link {
     color: var(--accent2-color);
 }
 
-.navi a{
+.navi a {
     flex: 1 1 auto;
 }
 
@@ -39,44 +40,44 @@ header img{
     background-color: var(--accent2-color);
 }
 
-.history-group h2{
+.history-group h2 {
     text-align: center;
 }
 
 
-.history{
+.history {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.history img{
+.history img {
     width: 200px;
     height: auto;
 }
 
 
-.adventure-group{
+.adventure-group {
     background-color: var(--accent1-color);
 }
 
-.adventure-group h2{
+.adventure-group h2 {
     text-align: center;
 }
 
-.adventure{
+.adventure {
     margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.adventure img{
+.adventure img {
     width: 140px;
     height: 80px;
 }
 
-.adventure figcaption{
+.adventure figcaption {
     font-size: small;
     text-align: center;
 }
@@ -93,17 +94,23 @@ body {
 }
 
 
-header, main, footer {
+header,
+main,
+footer {
     width: 840px;
     margin: 0 auto;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-nav, p, section, article {
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
 }
@@ -112,7 +119,7 @@ nav, p, section, article {
     text-decoration: none;
 }
 
-.socialmedia a img{
+.socialmedia a img {
     width: 20px;
     height: auto;
 }
@@ -123,7 +130,7 @@ nav, p, section, article {
     position: relative;
 }
 
-.hero img{
+.hero img {
     display: block;
     width: 100%;
     height: auto;
@@ -140,7 +147,7 @@ nav, p, section, article {
     color: var(--primary-color);
 }
 
-.hero article img{
+.hero article img {
     float: right;
     margin: 1px;
     width: 80px;
@@ -160,7 +167,7 @@ nav, p, section, article {
 }
 
 footer {
-    border-top: 1px dotted var(--primary-color) ;
+    border-top: 1px dotted var(--primary-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -178,7 +185,7 @@ footer p {
 }
 
 
-.employees{
+.employees {
     text-align: center;
     background-color: var(--accent1-color);
     margin: 10px;
@@ -193,20 +200,20 @@ footer p {
 
 
 
-.employees-info img{
+.employees-info img {
     border: 1px solid var(--primary-color);
     width: 100px;
     height: 80%;
 }
 
 
-.employees figcaption{
+.employees figcaption {
     text-align: center;
 }
 
 
 
-.contact_info h2{
+.contact_info h2 {
     display: flex;
     justify-content: center;
 }
@@ -222,11 +229,11 @@ footer p {
     border: 1px solid var(--primary-color);
 }
 
-.contact li{
+.contact li {
     margin-left: 10px;
 }
 
-.map{
+.map {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -252,16 +259,17 @@ form {
 
 
 
-form h2{
+form h2 {
     text-align: center;
 }
 
-form legend{
+form legend {
     text-align: center;
 }
 
 
-.fullname, .customer-emails {
+.fullname,
+.customer-emails {
     padding-left: 10px;
     margin: 5px;
 }
@@ -270,13 +278,15 @@ form legend{
     padding-left: 2px;
 }
 
-.customers-info input{
+.customers-info input {
     width: 71%;
     height: auto;
 }
 
 
-.inquiry ,.question ,.suggestion {
+.inquiry,
+.question,
+.suggestion {
     padding-left: 20px;
     margin: 7px;
 }
@@ -286,3 +296,341 @@ form textarea {
     width: 100%;
 }
 
+
+.main_set {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.trip_main {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic_trip {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.trip_1 {
+    margin: 3px;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid var(--primary-color);
+    background-color: var(--accent2-color);
+}
+
+.trip_2 {
+    margin: 3px;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid var(--primary-color);
+    background-color: var(--accent2-color);
+}
+
+.trip_3 {
+    margin: 3px;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid var(--primary-color);
+    background-color: var(--accent2-color);
+}
+
+.trip_main h1 {
+    text-align: center;
+}
+
+
+.pic_trip p {
+    text-align: left;
+    margin: 0 3px 3px 3px;
+    padding: 0 8px 8px 8px;
+
+}
+
+.pic_trip img {
+    width: 100%;
+    height: 50%;
+}
+
+
+
+
+
+
+.info_table {
+    width: 60%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.info_table h1 {
+    text-align: center;
+}
+
+.info_table table {
+    height: 80%;
+}
+
+
+.table {
+
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+
+}
+
+
+
+.table img {
+    width: 200px;
+    height: 125px;
+}
+
+
+thead {
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    background-color: var(--accent1-color);
+}
+
+tbody {
+    background-color: var(--accent2-color);
+    justify-self: center;
+    align-self: center;
+}
+
+
+tr,
+td {
+    outline: 1px solid var(--primary-color);
+}
+
+.two_day,
+.four_day,
+.week_long {
+    width: 200px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid var(--accent2-color);
+}
+
+
+.two_day img {
+    width: 160px;
+    height: 100px;
+}
+
+.four_day img {
+    width: 160px;
+    height: 100px;
+}
+
+.week_long img {
+    width: 160px;
+    height: 100px;
+}
+
+
+
+
+
+.contact_link {
+    margin-top: 10px;
+    width: 80%;
+    height: 5%;
+    align-self: center;
+}
+
+.contact_link {
+    display: inline-block;
+    background-color: var(--accent1-color);
+    outline: 4px solid var(--primary-color);
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 5px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+.contact_link:hover {
+    color: var(--accent2-color);
+}
+
+
+.home_page {
+    display: grid;
+    grid-template-columns: repeat(7, 14.3%);
+    grid-template-rows: repeat(7, 14.3%);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: var(--secondary-color);
+    outline: 1px solid var(--secondary-color);
+}
+
+
+
+
+
+.home_hero img {
+    display: block;
+    width: 100%;
+    height: 434px;
+}
+
+
+.home_hero h1 {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+}
+
+
+
+
+.rapids_pic_set {
+    grid-area: 3 / 2 / 6 / 4;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    outline: 2px solid var(--primary-color);
+    background-color: var(--accent1-color);
+}
+
+.camp_grounds {
+    grid-area: 3 / 5 / 6 / 7;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    outline: 2px solid var(--primary-color);
+    background-color: var(--accent1-color);
+}
+
+
+
+.rapids_pic_set img {
+    width: 100%;
+    height: 60%;
+}
+
+.camp_grounds img {
+    width: 100%;
+    height: 60%;
+}
+
+
+.camp_grounds p {
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    padding: 0;
+    margin: 0;
+}
+
+.rapids_pic_set p {
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.new_letter {
+    grid-area: 1 / 1 / 2 / 8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--accent2-color);
+    outline: 2px solid var(--primary-color);
+}
+
+.sign_news {
+    width: 100%;
+}
+
+.newsletter_name input {
+    width: 60%;
+}
+
+
+.newsletter_email input {
+    width: 60%;
+}
+
+
+
+.button_letter {
+    justify-self: center;
+}
+
+
+.trips_grab {
+    grid-area: 7 / 1 / 8 / 8;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--accent2-color);
+    outline: 3px solid var(--primary-color);
+    border-radius: 3px;
+}
+
+.trips_grab p {
+    padding: 0;
+    margin: 2px;
+}
+
+.trips_link {
+    display: inline-block;
+    background-color: var(--accent1-color);
+    outline: 4px solid var(--primary-color);
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 5px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+.trips_link:hover {
+    color: var(--accent2-color);
+}
